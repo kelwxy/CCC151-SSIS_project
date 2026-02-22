@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>EditStudent_Dialog</class>
+ <class>addStudent</class>
  <widget class="QDialog" name="EditStudent_Dialog">
   <property name="geometry">
    <rect>

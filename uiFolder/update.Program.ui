@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>updateProgram
-    git
- </class>
+ <class>updateProgram</class>
  <widget class="QDialog" name="Dialog">
   <property name="geometry">
    <rect>
