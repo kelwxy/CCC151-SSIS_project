@@ -1,7 +1,7 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class deleteConfirm(object):
+class delete_Confirm(object):
     def setupUi(self, DeleteConfirmation):
         DeleteConfirmation.setObjectName("DeleteConfirmation")
         DeleteConfirmation.resize(387, 178)
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     dialog = QtWidgets.QDialog()
-    ui = deleteConfirm()
+    ui = delete_Confirm()
     ui.setupUi(dialog)
     dialog.show()
     sys.exit(app.exec())

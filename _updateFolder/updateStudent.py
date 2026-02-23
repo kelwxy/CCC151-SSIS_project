@@ -1,7 +1,7 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class updateStudent(object):
+class update_Student(object):
     def setupUi(self, EditStudent_Dialog):
         EditStudent_Dialog.setObjectName("EditStudent_Dialog")
         EditStudent_Dialog.resize(500, 532)
@@ -250,7 +250,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     EditStudent_Dialog = QtWidgets.QDialog()
-    ui = updateStudent()
+    ui = update_Student()
     ui.setupUi(EditStudent_Dialog)
     EditStudent_Dialog.show()
     sys.exit(app.exec())

@@ -1,7 +1,7 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class updateCollege(object):
+class update_College(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(558, 272)
@@ -150,7 +150,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     Dialog = QtWidgets.QDialog()
-    ui = updateCollege()
+    ui = update_College()
     ui.setupUi(Dialog)
     Dialog.show()
     sys.exit(app.exec())

@@ -1,7 +1,7 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class mainWindow(object):
+class main_Window(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1100, 749)
@@ -44,8 +44,7 @@ class mainWindow(object):
         self.SearchFilters = QtWidgets.QComboBox()
         self.SearchFilters.addItems([
             "--Search Filters--", "ID Number", "First Name", "Last Name",
-            "Year Level", "Gender", "Program Code", "Program Name",
-            "College Code", "College Name"
+            "Program Code", "Program Name", "College Code", "College Name"
         ])
         self.verticalLayout_6.addWidget(self.SearchFilters)
 
@@ -63,8 +62,7 @@ class mainWindow(object):
         self.comboBox.addItems([
             "---Sort By---", "By First Name (A-Z)", "By First Name (Z-A)",
             "By Last Name (A-Z)", "By Last Name (Z-A)",
-            "By Student ID (Ascending)", "By Student ID (Descending)",
-            "By Program Code (A-Z)"
+            "By Student ID (Ascending)", "By Student ID (Descending)"
         ])
         student_layout.addWidget(self.comboBox)
 
@@ -144,7 +142,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
-    ui = mainWindow()
+    ui = main_Window()
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec())

@@ -1,7 +1,7 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class addProgram(object):
+class add_Program(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(540, 336)
@@ -166,7 +166,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     Dialog = QtWidgets.QDialog()
-    ui = addProgram()
+    ui = add_Program()
     ui.setupUi(Dialog)
     Dialog.show()
     sys.exit(app.exec())
