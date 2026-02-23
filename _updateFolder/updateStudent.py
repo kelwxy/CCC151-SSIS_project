@@ -231,7 +231,7 @@ class update_Student(object):
 
     def retranslateUi(self, EditStudent_Dialog):
         _translate = QtCore.QCoreApplication.translate
-        EditStudent_Dialog.setWindowTitle(_translate("EditStudent_Dialog", "Dialog"))
+        EditStudent_Dialog.setWindowTitle(_translate("EditStudent_Dialog", "Update Student"))
         self.Edit_Student_text.setText(_translate("EditStudent_Dialog", "Update Student Information"))
         self.id_number_text.setText(_translate("EditStudent_Dialog", "ID Number"))
         self.id_number_input.setPlaceholderText(_translate("EditStudent_Dialog", "YYYY-NNNN"))

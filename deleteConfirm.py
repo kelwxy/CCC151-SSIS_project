@@ -47,7 +47,7 @@ class delete_Confirm(object):
 
     def retranslateUi(self, DeleteConfirmation):
         _translate = QtCore.QCoreApplication.translate
-        DeleteConfirmation.setWindowTitle(_translate("DeleteConfirmation", "Dialog"))
+        DeleteConfirmation.setWindowTitle(_translate("DeleteConfirmation", "Delete"))
         self.Text.setText(
             _translate("DeleteConfirmation", "Are you sure you want to delete this item?")
         )

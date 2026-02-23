@@ -133,7 +133,7 @@ class add_College(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("Dialog", "Add College"))
         self.AddCollege_text.setText(_translate("Dialog", "Add College"))
         self.CollegeCode_text.setText(_translate("Dialog", "College Code"))
         self.CollegeName_text.setText(_translate("Dialog", "College Name"))

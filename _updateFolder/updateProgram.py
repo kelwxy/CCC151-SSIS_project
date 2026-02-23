@@ -160,7 +160,7 @@ class update_Program(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("Dialog", "Update Program"))
         self.add_program_text.setText(_translate("Dialog", "Update Program"))
         self.program_code_text.setText(_translate("Dialog", "Program Code"))
         self.program_name_text.setText(_translate("Dialog", "Program Name"))

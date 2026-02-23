@@ -4,6 +4,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class main_Window(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
+        MainWindow.setWindowTitle("KELWXY - Student Information System")
         MainWindow.resize(1100, 749)
         MainWindow.setMinimumSize(QtCore.QSize(768, 576))
 
@@ -13,6 +14,18 @@ class main_Window(object):
         # LEFT SIDEBAR (WITH TEXT)
         self.sidebar_icon_with_description_widget = QtWidgets.QWidget(parent=self.centralwidget)
         self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.sidebar_icon_with_description_widget)
+
+        self.app_name_label = QtWidgets.QLabel("KELWXY")
+        self.app_name_label.setStyleSheet(
+            "font-size: 20px; font-weight: bold; color: black; letter-spacing: 1px;"
+        )
+        self.verticalLayout_4.addWidget(self.app_name_label)
+
+        self.divider_line = QtWidgets.QFrame()
+        self.divider_line.setFrameShape(QtWidgets.QFrame.Shape.HLine)
+        self.divider_line.setFrameShadow(QtWidgets.QFrame.Shadow.Sunken)
+        self.divider_line.setStyleSheet("color: black; margin-top: 4px; margin-bottom: 4px;")
+        self.verticalLayout_4.addWidget(self.divider_line)
 
         self.students_button = QtWidgets.QPushButton("Students")
         self.verticalLayout_4.addWidget(self.students_button)

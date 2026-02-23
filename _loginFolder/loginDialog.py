@@ -82,7 +82,7 @@ class login_Dialog(object):
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("LoginDialog", "Login"))
-        self.title_label.setText(_translate("LoginDialog", "Kel Login"))
+        self.title_label.setText(_translate("LoginDialog", "KELWXY login"))
         self.username_label.setText(_translate("LoginDialog", "Username"))
         self.password_label.setText(_translate("LoginDialog", "Password"))
         self.role_label.setText(_translate("LoginDialog", "Role"))
