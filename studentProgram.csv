@@ -1,8 +1,8 @@
 program_code,program_name,college_code
-BTLED-HE,Bachelor of Technology and Livelihood Education - Home Economics,CED
-BTLED-IA,Bachelor of Technology and Livelihood Education - Industrial Arts,CED
-BSEd-Eng,Bachelor of Secondary Education - English,CED
-BSEd-Math,Bachelor of Secondary Education - Mathematics,CED
+BTLED-HEE,Bachelor of Technology and Livelihood Education - Home Economics,CED
+BTLED-IAA,Bachelor of Technology and Livelihood Education - Industrial Arts,CED
+BSEd-Engg,Bachelor of Secondary Education - English,CED
+BSEd-Mathh,Bachelor of Secondary Education - Mathematics,CED
 BSEd-Sci,Bachelor of Secondary Education - Science,CED
 BSEd-Fil,Bachelor of Secondary Education - Filipino,CED
 BSEd-SocSci,Bachelor of Secondary Education - Social Science,CED
@@ -39,16 +39,16 @@ BSRE,Bachelor of Science in Renewable Energy Engineering,COE
 BSGE,Bachelor of Science in Geodetic Engineering,COE
 BS AeroEng,Bachelor of Science in Aeronautical Engineering,COE
 BS NavalEng,Bachelor of Science in Naval Engineering,COE
-BSCS,Bachelor of Science in Computer Science,CCS
-BSIT,Bachelor of Science in Information Technology,CCS
-BSIS,Bachelor of Science in Information Systems,CCS
-BSEMC,Bachelor of Science in Entertainment and Multimedia Computing,CCS
-BSDA,Bachelor of Science in Data Analytics,CCS
-BS CyberSec,Bachelor of Science in Cybersecurity,CCS
-BS AI,Bachelor of Science in Artificial Intelligence,CCS
-BSSE,Bachelor of Science in Software Engineering,CCS
-BS DataSci,Bachelor of Science in Data Science,CCS
-BS GameDev,Bachelor of Science in Game Development,CCS
+BSCS,Bachelor of Science in Computer Science,CSS
+BSIT,Bachelor of Science in Information Technology,CSS
+BSIS,Bachelor of Science in Information Systems,CSS
+BSEMC,Bachelor of Science in Entertainment and Multimedia Computing,CSS
+BSDA,Bachelor of Science in Data Analytics,CSS
+BS CyberSec,Bachelor of Science in Cybersecurity,CSS
+BS AI,Bachelor of Science in Artificial Intelligence,CSS
+BSSE,Bachelor of Science in Software Engineering,CSS
+BS DataSci,Bachelor of Science in Data Science,CSS
+BS GameDev,Bachelor of Science in Game Development,CSS
 BSBA-FM,Bachelor of Science in Business Administration - Financial Management,CEBA
 BSBA-MM,Bachelor of Science in Business Administration - Marketing Management,CEBA
 BSBA-HRM,Bachelor of Science in Business Administration - Human Resource Management,CEBA
