@@ -5,7 +5,7 @@ The objective of this project is to complete the requirements for the subject **
 
 ## About This Project
 
-The KELWXY student information system was developed using Python, PyQt6, and CSV data storage without the need for database management. It offers all of the CRUDL capabilities, including **searching** and **sorting**.
+The KELWXY student information system was developed using Python, PyQt6, and CSV data storage without the need for database management. It offers all of the CRUDL capabilities, including **searching**, **sorting**, and **batch operation**.
 
 
 ## How To Access
@@ -25,6 +25,7 @@ To access the application, use the following credentials:
 - **SORTING** 
 - **SEARCHING**
 - **CSV** - based database
+- **BATCH OPERATION**
 
 
 ## License
